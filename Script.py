@@ -33,6 +33,3 @@ for i in range(1, 5):
 # Writing data to JSON file
 with open('extracted_data.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)
-
-for d in data.items():
-    print(d)
